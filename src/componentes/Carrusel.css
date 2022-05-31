@@ -1,0 +1,10 @@
+.padre{
+    margin: 1rem 0;
+    width:100%;
+    height: 24rem; 
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+

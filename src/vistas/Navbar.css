@@ -1,0 +1,19 @@
+.div-padre{
+display: flex;
+justify-content: space-between;
+backdrop-filter: blur(20px);
+width: 100%;
+}
+.logo{
+    max-width: 18rem;
+    transform: rotate(355deg);
+}
+.logo:hover{
+    transform: scale(1.2) translate(10px) rotate(355deg);
+}
+@media only screen and (max-width: 768px){
+    .logo{
+        max-width: 15rem;
+        transform: rotate(355deg);
+    }   
+}

@@ -1,0 +1,52 @@
+.elMandaMasDiv{
+    width: 12rem;
+}
+
+.mostrador{
+    width: 8rem;
+    height: 3rem;
+    margin:1rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: start ;
+    align-items: center;
+    color: #fff;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 14%, rgba(40,39,39,1) 56%, rgba(0,0,0,1) 100%);
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 35px;
+}
+.corazonBoton{
+    padding: 0.5rem;
+    text-align: center;
+    background: rgb(172,255,0);
+    background: radial-gradient(circle, rgba(172,255,0,1) 12%, rgba(24,61,0,1) 95%);
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 50%;
+}
+.botonEliminar{
+    padding: 0.5rem;
+    text-align: center;
+    background: rgb(172,255,0);
+    background: radial-gradient(circle, rgba(172,255,0,1) 12%, rgba(24,61,0,1) 95%);
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 50%;
+    color: #fff;
+}
+.seleccionadoFavorito{
+    list-style: none;
+    width: 8rem;
+    overflow-wrap:break-word;
+    min-height: 3rem;
+    margin-right: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(40,39,39,1) 60%, rgba(0,0,0,1) 100%);
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 35px;
+   
+}
