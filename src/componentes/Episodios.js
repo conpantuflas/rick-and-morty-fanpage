@@ -31,7 +31,7 @@ const Episodios = () => {
                 <div>
                     <p className='titular-mayorDetalle'>{episode.name}</p>
                     <ul className='descripcion-mayorDetalle'>
-                        <li className='caracteristica'> fecha de lanzamiento :{episode.air_date}</li>
+                        <li className='caracteristica'> fecha de lanzamiento: {episode.air_date}</li>
                         <li className='caracteristica'> Episodio: {episode.episode}</li>
                         <li className='caracteristica'> Origen: {episode.created}</li>
                     </ul>

@@ -15,7 +15,6 @@ const injectContext = (PassComponent) => {
                 })
             })
         );
-        const [favoritos, setFavoritos] = useState([])
 
         useEffect(()=>{},[])
 
